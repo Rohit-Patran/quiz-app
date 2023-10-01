@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Indigg Quiz</title>
+    <link rel="stylesheet" href="quiz.css" />
+    <link rel="shortcut icon" href="indigg.png" type="image/x-icon">
+  </head>
+  <body>
+    <h1>
+      <img src="indigg.png" alt="logo">
+      Indigg Quiz
+    </h1>
+    <div class="quiz-section">
+      <div id="quiz" >
+        <div class="timer-section">
+          <h2 class="question" id="question">quiz Question</h2>
+          <h2 class="question" id="timer"></h2>
+        </div>
+        
+        <hr />
+        <ul>
+          <li>
+            <input type="radio" name="answer" id="a" class="answer" />
+            <label for="a" id="option_1">Option</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="b" class="answer" />
+            <label for="b" id="option_2">Option</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="c" class="answer" />
+            <label for="c" id="option_3">Option</label>
+          </li>
+          <li>
+            <input type="radio" name="answer" id="d" class="answer" />
+            <label for="d" id="option_4">Option</label>
+          </li>
+        </ul>
+        <hr />
+        <div class="btn">
+          <button type="submit" id="next">Next</button>
+        </div>
+      </div>
+    </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>
