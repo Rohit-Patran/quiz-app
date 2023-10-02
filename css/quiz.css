@@ -26,13 +26,8 @@ h1{
 }
 .quiz-section {
 	width: 50%;
-	height: auto;
 	background-color: #fff;
 	border-radius: .5rem;
-	-webkit-border-radius: .5rem;
-	-moz-border-radius: .5rem;
-	-ms-border-radius: .5rem;
-	-o-border-radius: .5rem;
 	box-shadow: rgba(99, 99, 99, .2) 0px 2px 8px 0px
 }
 
@@ -88,10 +83,6 @@ button {
 	padding: 0 5rem;
 	height: 5rem;
 	border-radius: 5rem;
-	-webkit-border-radius: 5rem;
-	-moz-border-radius: 5rem;
-	-ms-border-radius: 5rem;
-	-o-border-radius: 5rem;
 	background: linear-gradient(62deg, #713ABE 0%, #9D76C1 100%);
 	border: none;
 	color: #fff;
@@ -100,14 +91,9 @@ button {
 
 .result {
 	width: 100%;
-	height: auto;
 	padding: 5rem;
 	background-color: #fff;
 	border-radius: .5rem;
-	-webkit-border-radius: .5rem;
-	-moz-border-radius: .5rem;
-	-ms-border-radius: .5rem;
-	-o-border-radius: .5rem;
 	box-shadow: rgba(99, 99, 99, .2) 0px 2px 8px 0px;
 	display: flex;
 	flex-direction: column;
