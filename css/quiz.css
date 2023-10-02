@@ -132,3 +132,19 @@ button {
 #timer{
 	margin-right: 2vw;
 }
+
+@media screen and (max-width:800px) {
+
+	.quiz-section{
+		width: 90%;
+	}
+	#question{
+		font-size: 3rem;
+	}
+	.timer-section{
+		font-size: 3rem;
+	}
+	.timer-section h2{
+		font-size: 3rem;
+	}
+}
